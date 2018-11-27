@@ -39,8 +39,8 @@ public class Dijkstra {
 		     /*16*/{0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,   0,   0,   0,   0,   0,   0,   58},
 		     /*17*/{0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,   0,   0,   0,   0,   0,   0,   0}
 		};
-		Origem = Integer.parseInt(JOptionPane.showInputDialog("Digite a cidade de origem"));
-		Destino = Integer.parseInt(JOptionPane.showInputDialog("Digite a cidade de destino"));
+		Origem = Integer.parseInt(JOptionPane.showInputDialog("Digite o local de origem"));
+		Destino = Integer.parseInt(JOptionPane.showInputDialog("Digite o local de destino"));
 
 		D[5][9] *= Fila();
 		D[7][10] *= Fila();
